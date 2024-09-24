@@ -1,0 +1,29 @@
+.contenedorContador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#numeros, #titulo{
+    justify-content: center;
+}
+
+.botones{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#incrementar-btn,#decrementar-btn,#reset-btn{
+    border-radius: 20px;
+    border:none;
+    padding: 6px;
+    margin: 5px;
+}
+
+#incrementar-btn:hover,#decrementar-btn:hover,#reset-btn:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
